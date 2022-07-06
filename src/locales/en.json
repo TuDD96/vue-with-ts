@@ -1,0 +1,8 @@
+{
+  "login": {
+    "title": "Vue 3 + VeeValidate - Form Validation Example (Options API)"
+  },
+  "validation": {
+    "required": "is required"
+  }
+}

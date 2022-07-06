@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="/images/logo/apple-touch-icon.html">
+    <link rel="shortcut icon" href="/images/logo/favicon.png">
+
+    <!-- core dependcies css -->
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/vendor/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="/vendor/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+
+    <!-- page css -->
+
+    <!-- core css -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/themify-icons.css" rel="stylesheet">
+    <link href="/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
   </head>
   <body>
     <noscript>
@@ -13,5 +31,13 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script src="/js/vendor.js"></script>
+
+    <script src="/js/app.min.js"></script>
+
+    <!-- page js -->
+    <script src="/vendor/chart.js/dist/Chart.min.js"></script>
+    <script src="/vendor/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script src="/js/dashboard/default.js"></script>
   </body>
 </html>
